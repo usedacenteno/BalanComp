@@ -94,10 +94,11 @@ namespace accountingProject.Balance
 
                 // --- PASIVOS CIRCULANTES ---
                 var cxpagar = new GrupoCuenta("Cuentas por Pagar a Corto Plazo");
-                cxpagar.AñadirCuenta(new Cuenta("2.1.1", "Proveedores", "PC", "Pasivo"));
+                cxpagar.AñadirCuenta(new Cuenta("2.1.1", "Proveedores o cuentas por pagar", "PC", "Pasivo"));
                 cxpagar.AñadirCuenta(new Cuenta("2.1.2", "Documentos por Pagar CP", "PC", "Pasivo"));
                 cxpagar.AñadirCuenta(new Cuenta("2.1.3", "Impuestos por Pagar (Retenciones)", "PC", "Pasivo"));
                 cxpagar.AñadirCuenta(new Cuenta("2.1.4", "Sueldos por Pagar", "PC", "Pasivo"));
+                cxpagar.AñadirCuenta(new Cuenta("2.1.5", "", "PC", "Pasivo"));
                 PasivoCirculante.Add(cxpagar);
 
                 // --- PASIVOS NO CIRCULANTES ---
