@@ -22,7 +22,7 @@ namespace accountingProject.Balance
             {
                 Codigo = codigo?.Trim() ?? string.Empty;
                 Nombre = nombre.Trim();
-                Clasificacion = clasificacion?.Trim() ?? "Sin Clasificación";
+                Clasificacion = clasificacion?.Trim() ?? "Sin Clasificación.";
                 Tipo = tipo;
             }
 
